@@ -24,7 +24,7 @@ Extension is experimental, and it is not available through browser extension sto
 
 ### Mozilla Firefox
 3. open [about:addons](about:addons)
-4. Click on the "Load unpacked" button
+4. Click on the gear icon and select "Install Add-on From File ..."
 5. Select any file in the unzipped folder
 
 ## Market places

@@ -28,6 +28,6 @@ Extension is experimental, and it is not available through browser extension sto
 5. Select any file in the unzipped folder
 
 ## Market places
-- [Njuškalo] (https://www.njuskalo.hr/nekretnine/)
-- [Index oglasi] (https://www.index.hr/oglasi/prodaja-stanova)
+- [Njuškalo] (https://www.njuskalo.hr/)
+- [Index oglasi] (https://www.index.hr/oglasi/)
 

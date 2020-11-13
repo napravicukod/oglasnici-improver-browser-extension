@@ -1,0 +1,45 @@
+{
+  "manifest_version": 2,
+  "name": "Oglasnici Improver",
+  "description": "",
+  "author": "Rudolf Jurisic",
+  "version": "0.0.1",
+  "browser_action": {
+    "default_icon": {
+      "16": "images/get_started16.png",
+      "32": "images/get_started32.png",
+      "48": "images/get_started48.png",
+      "128": "images/get_started128.png"
+    }
+  },
+  "icons": {
+    "16": "images/get_started16.png",
+    "32": "images/get_started32.png",
+    "48": "images/get_started48.png",
+    "128": "images/get_started128.png"
+  },
+  "permissions": [
+    "https://www.njuskalo.hr/*",
+    "https://www.index.hr/oglasi/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.njuskalo.hr/prodaja-stanova/*",
+        "https://www.njuskalo.hr/iznajmljivanje-stanova/*",
+        "https://www.index.hr/oglasi/prodaja-stanova/*",
+        "https://www.index.hr/oglasi/najam-stanova/*"
+      ],
+      "js": [
+        "helpers/Formatter.js",
+        "UI/handler/UIHandler.js",
+        "UI/handler/IndexOglasiUIHandler.js",
+        "UI/handler/NjuskaloUIHandler.js",
+        "UI/itemParser/ItemParser.js",
+        "UI/itemParser/IndexOglasiItemParser.js",
+        "UI/itemParser/NjuskaloItemParser.js",
+        "content.js"
+      ]
+    }
+  ]
+}

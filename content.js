@@ -1,5 +1,4 @@
 (function () {
-
     const currentUrl = window.location.origin + window.location.pathname;
     let UIHandler;
 
@@ -10,5 +9,4 @@
     }
 
     UIHandler.replaceHRKPriceWithPricePerSquareMeter();
-
 })();

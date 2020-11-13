@@ -23,8 +23,8 @@ Extension is experimental, and it is not available through browser extension sto
 5. Select the folder of the unzipped content
 
 ### Mozilla Firefox
-3. open [about:addons](about:addons)
-4. Click on the gear icon and select "Install Add-on From File ..."
+3. open [about:debugging](about:debugging )
+4. click "This Firefox" and then "Load Temporary Add-on..."
 5. Select any file in the unzipped folder
 
 ## Market places

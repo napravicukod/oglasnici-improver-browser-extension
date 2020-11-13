@@ -25,9 +25,9 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.njuskalo.hr/prodaja-stanova/*",
-        "https://www.njuskalo.hr/iznajmljivanje-stanova/*",
-        "https://www.index.hr/oglasi/prodaja-stanova/*",
+        "https://www.njuskalo.hr/prodaja-stanova*",
+        "https://www.njuskalo.hr/iznajmljivanje-stanova*",
+        "https://www.index.hr/oglasi/prodaja-stanova*",
         "https://www.index.hr/oglasi/najam-stanova/*"
       ],
       "js": [
